@@ -52,32 +52,6 @@ class _KhsPageState extends State<KhsPage> {
             ],
           ),
           const SizedBox(height: 16.0),
-          ListTile(
-            contentPadding: const EdgeInsets.all(0),
-            leading: ClipRRect(
-              borderRadius: const BorderRadius.all(Radius.circular(50.0)),
-              child: Image.network(
-                'https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2021/12/15/1405406409.jpg',
-                width: 40,
-                height: 40,
-                fit: BoxFit.cover,
-              ),
-            ),
-            title: const Text(
-              "Jesica Jane",
-              style: TextStyle(
-                fontSize: 16,
-                fontWeight: FontWeight.w700,
-              ),
-            ),
-            subtitle: const Text(
-              "Mahasiswa",
-              style: TextStyle(
-                fontSize: 12,
-              ),
-            ),
-          ),
-          const SizedBox(height: 16.0),
           const Divider(),
           const SizedBox(height: 16.0),
           const RowText(

@@ -4,9 +4,6 @@ import '../../../common/components/row_text.dart';
 import '../../../common/constants/colors.dart';
 import '../models/course_grade_model.dart';
 
-
-
-
 class CourseGradeTile extends StatelessWidget {
   final CourseGradeModel data;
   const CourseGradeTile({super.key, required this.data});
@@ -17,31 +14,31 @@ class CourseGradeTile extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
       children: [
-        ListTile(
-          contentPadding: const EdgeInsets.all(0),
-          leading: ClipRRect(
-            borderRadius: const BorderRadius.all(Radius.circular(50.0)),
-            child: Image.network(
-              'https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2021/12/15/1405406409.jpg',
-              width: 40,
-              height: 40,
-              fit: BoxFit.cover,
-            ),
-          ),
-          title: const Text(
-            "Jesica Jane",
-            style: TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.w700,
-            ),
-          ),
-          subtitle: const Text(
-            "Mahasiswa",
-            style: TextStyle(
-              fontSize: 12,
-            ),
-          ),
-        ),
+        // ListTile(
+        //   contentPadding: const EdgeInsets.all(0),
+        //   leading: ClipRRect(
+        //     borderRadius: const BorderRadius.all(Radius.circular(50.0)),
+        //     child: Image.network(
+        //       'https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2021/12/15/1405406409.jpg',
+        //       width: 40,
+        //       height: 40,
+        //       fit: BoxFit.cover,
+        //     ),
+        //   ),
+        //   title: const Text(
+        //     "Jesica Jane",
+        //     style: TextStyle(
+        //       fontSize: 16,
+        //       fontWeight: FontWeight.w700,
+        //     ),
+        //   ),
+        //   subtitle: const Text(
+        //     "Mahasiswa",
+        //     style: TextStyle(
+        //       fontSize: 12,
+        //     ),
+        //   ),
+        // ),
         const SizedBox(height: 16.0),
         const Divider(),
         const SizedBox(height: 16.0),
